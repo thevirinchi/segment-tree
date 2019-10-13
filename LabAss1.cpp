@@ -75,7 +75,8 @@ void bar(){
 
 /*--- Questions ---*/
 void ques(int n){
-  cout << "QUESTION:" << endl;
+ 
+  cout << "ENTER QUESTION NO YOU WANT TO SEE:"<< endl;
   switch(n){
     case 1:
       cout << "WAP to construct a binary search tree (BST) from the post-order traversal and print the inorder traversal of the constructed tree." << endl;
